@@ -2,7 +2,7 @@
 # Simplified dependencies for self-contained document generation
 
 # ── Core AI & Document Generation ──────────────────────────────────
-openai>=1.0.0,<2.0.0
+openai>=1.0.0,<3.0.0
 tiktoken>=0.6.0
 
 # ── Configuration & Environment ────────────────────────────────────
