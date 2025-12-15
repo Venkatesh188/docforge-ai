@@ -104,7 +104,7 @@ jobs:
         semgrep --config=auto --json --output=semgrep-report.json . || echo "Semgrep scan completed with warnings"
 
     - name: Upload security reports
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: security-audit-reports
         path: |
